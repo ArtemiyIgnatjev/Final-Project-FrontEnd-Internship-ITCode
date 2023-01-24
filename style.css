@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d6d4d4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #26a69a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.h-p{
+    background-color: #26a69a;
+    color: aliceblue;
+    font-size: 80px;
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 800px;
+    height: 200px;
+}
+
+.registration{
+    display: flex;
+    background-color: #d6d4d4;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.first{
+    margin-left: 150px;
+}
+
+.o-name{
+    margin-left: 150px;
+}
+
+
+#reg {
+    background-color: #d6d4d4;
+    margin-top: 20px;
+    margin-left: 150px;
+    color: rgb(110, 159, 207);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#r-btn{
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    color: #26a69a;
+    margin-left: 180px;
+    border-radius: 15px;
+    border: #26a69a solid 3px;
+    cursor: pointer;
+}
+
+#name{
+    background-color: white;
+    border: #26a69a solid 3px;
+    width: 250px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+#phone{
+    background-color: white;
+    border: #26a69a solid 3px;
+    width: 250px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+#email{
+    background-color: white;
+    border: #26a69a solid 3px;
+    width: 250px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.selectOrganisation{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+#sel{
+    background-color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(110, 159, 207);
+    margin-top: 20px;
+}
+
+#s-btn{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    color: #26a69a;
+    margin-left: 80px;
+    border-radius: 15px;
+    border: #26a69a solid 3px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.org{
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+.selectPeople{
+    margin: 0;
+    display: flex;
+    background-color: white;
+}
+
+.card-1{
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-2{
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-3{
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text{
+    background-color: white;
+}
+
+.c-p{
+    color: #26a69a;
+    font-size: bold;
+    background-color: white;
+}
+
+.c-img{
+    height: 100px;
+    weight: 80px;
+}
+
+.c-btn{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    color: #26a69a;;
+    border-radius: 15px;
+    border: #26a69a solid 3px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.selectDate{
+    margin: 0;
+    height: 200px;
+    background-color: #d6d4d4;
+}
+
+
+.p-sd{
+    padding-top: 20px;
+    color: #26a69a;
+    background-color: #d6d4d4;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.sd-btn{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    color: #26a69a;
+    background-color: white;
+    border-radius: 15px;
+    border: #26a69a solid 3px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.inp-sd{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+    border: #26a69a solid 3px;
+}
+
+.showResult{
+    background-color: white;
+    height: 200px;
+}
+  
+.line{
+    color: blue;
+}
+
+.p-sr{
+    
+    background-color: white;
+    margin-left: 50px;
+    color: rgb(110, 159, 207);
+    font-size: 20px;
+    font-weight: bold;
+}
+.o-name2{
+    background-color: white;
+}
+
+.org-name{
+    background-color: white;
+}
+
+.vrach{
+    background-color: white;
+}
+
+.date{
+    background-color: white;
+    color: rgb(110, 159, 207);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+}

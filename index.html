@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study project</title>
+    <link rel="website icon" type="png" href="cross.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+
+        <p class="h-p">Запись на приём</p>
+
+        <img src="pic.JPG">
+        <hr>
+        
+    </header>
+
+    <p id="reg">Введите ваши данные</p>
+
+    <div class="registration">
+
+        <input id="name" type="text" placeholder="Ваше ФИО"> <br>
+        <input id="phone" type="text" placeholder="Ваш номер телефона"> <br>
+        <input id="email" type="email" placeholder="Ваш e-mail"> <br>
+        <button id="r-btn" onclick="func1()">Регистрация</button>
+
+    </div>
+    
+    <span class="first"></span> <br> <span class="o-name"></span></p>
+
+
+
+    <div class="selectOrganisation">
+
+        <p id="sel">Выберите вашу организацию</p> <br>
+
+        <div class="org">
+
+            <label for="org1" class="org">ITCode</label>
+            <input type="radio" id="r1" class="i-1" checked name="rb-1" value="ITcode">
+
+        </div>
+
+        <div class="org">
+
+            <label for="org2" class="org">УГАТУ</label>
+            <input type="radio" id="r2" class="i-1" name="rb-1" value="Угату">
+
+        </div>
+
+    </div>
+
+    <div class="selectPeople">
+
+        <div class="card-1">
+
+            <img src="avatar.jpg" class="c-img"> <br>
+            <label for="p1" class="text">Иванов Иван<br>Терапевт<br>1000 р/ч</label> <br>
+            <input type="radio" id="r3" class="i-2" checked name="rb-2" value="Терапевт Иванов Иван, 1000 р/ч">
+
+        </div>
+
+        <div class="card-2">
+
+            <img src="avatar.jpg" class="c-img"> <br>
+            <label for="p2" class="text">Валерий Альбертович<br>Окулист<br>1500 р/ч</label> <br>
+            <input type="radio" id="r4" class="i-2"  name="rb-2" value="Окулист Валерий Альбертович, 1500 р/ч">
+
+        </div>
+
+        <div class="card-3">
+
+            <img src="avatar.jpg" class="c-img"> <br>
+            <label for="p2" class="text">Петр Сидоров<br>Невролог<br>2000 р/ч</label> <br>
+            <input type="radio" id="r5" class="i-2"  name="rb-2" value="Невролог Петр Сидоров, 2000 р/ч">
+
+        </div>
+
+    </div>
+
+    <div class="selectDate">
+        <p class="p-sd" >Введите дату приема</p>
+        <input type="text" class="inp-sd" id="select-date">
+        <button class="sd-btn" onclick="func2()">Выбрать</button>
+    </div>
+
+<hr class="line">
+
+    <div class="showResult">
+        <p class="p-sr"> Вы <span class="o-name2"></span> из <span class="org-name"></span> записаны к <span class="vrach"></span></p> <span class="date"></span>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
